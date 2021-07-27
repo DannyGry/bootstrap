@@ -1,5 +1,5 @@
-.logoo .row, header .row{
-    height: 59px;
+.logoo img{
+    margin: 17px 0;
 }
 .links, .linkss{
     padding-left: 27px;
@@ -238,19 +238,31 @@ span{
 .brands img{
     margin: auto;
 }
-@media (max-width: 1199px) {
-    
+.ssearch{
+    justify-content: flex-end;
+    margin: 21px 0;
 }
+
 @media (max-width: 768px) {
-    header{
-        height: 73px;
-    }
+    .logoo{
+        margin-bottom: 21px;
+    }     
     .brands .col-md-3{
         text-align: center;
     }
     .ben{
         padding-top: 13px;
         padding-bottom: 18px;
+    }
+    .ssearch{
+        justify-content: center;
+    }
+    .sd .col-md-4{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .sd .col-md-4 .ipsum{
+        margin-top: 7px;
     }
 }
 @media (max-width: 925px) {
@@ -282,16 +294,28 @@ span{
         top: 1%;
         bottom: 0;
     }
+    nav{
+        text-align: center;
+    }
 
+}
+@media (max-width: 482px) {
+    h1{
+        font-size: 17px;
+    }
+}
+@media (max-width: 488px) {
+    footer .col-6{
+        text-align: center;
+    }
 }
 @media (max-width: 425px) {
     .col-6.col-sm-4{
         text-align: center;
     }
-}
-@media (max-width: 425px) {
     .carousel-caption.d-none{
         padding: 0;
+        top: 10%;
     }
     .welocme{
         padding-right: 46px;
@@ -300,6 +324,7 @@ span{
         width: 138px;
         padding-left: 6px;
     }
+
 }
 @media (max-width: 767px) {
     .carousel-caption.d-none{
